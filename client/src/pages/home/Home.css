@@ -1,0 +1,27 @@
+.welcome_section, .welcome_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.welcome_image{
+    width: 45vh;
+    height: 45vh;
+}
+.welcome_article{
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.welcome_text{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -1.5vh;
+}
+.welcome_btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3rem;
+}

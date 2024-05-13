@@ -1,0 +1,4 @@
+.username_input, .password_input{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,21 @@
+.register_btn{
+    width: 20vh;
+    height: 9vh;
+    background-color: #D7D7D7;
+    border-radius: 10px;
+    font-size: 1.14rem;
+    border: 0;
+    -webkit-box-shadow: -1px 5px 27px 7px rgba(215,215,215,1);
+    -moz-box-shadow: -1px 5px 27px 7px rgba(215,215,215,1);
+    box-shadow: -1px 5px 27px 7px rgba(215,215,215,1);
+}
+.register_btn:hover{
+    background-color: #b6b6b6;
+}
+
+.register_btn:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  }
