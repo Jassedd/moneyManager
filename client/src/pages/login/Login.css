@@ -1,4 +1,37 @@
-.username_input, .password_input{
+.section_input_login, .section_input_login{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.username_input_login, .password_input_login{
+    height: 4rem;
+    width: 50vh;
+    background-color: #F1F4FF;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.username_input_login:focus, .password_input_login:focus {
+    outline: none;
+    border: 2px solid #1F41BB;
+  }
+  
+.btns_login_register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.2rem;
+}
+.btn_login{
+    width: 30vh;
+    height: 3rem;
+    background-color: #1F41BB;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
 }
