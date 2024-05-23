@@ -1,0 +1,148 @@
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
+.Register-Page{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.background-forms-n1{
+    grid-column: 4/9;
+    grid-row: 1/4;
+    width: 70vw;
+    height: 80vw;
+    border-bottom-left-radius: 100%;
+    background: #F8F9FF;
+}
+
+.background-forms-n2{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/9;
+    grid-row: 2/4;
+}
+
+.Title{
+   margin-bottom: 9px;
+   font-size: clamp(35px, 2vw, 40px);
+   text-align: center;
+   color: #1F41BB;
+}
+
+.Subtitle {
+    font-weight: 450;
+    font-size: clamp(18px, 2vw, 24px);
+    text-align: center;
+
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 2/8;
+    grid-row: 3/6;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.email-input {
+    margin-bottom: 10px;;
+    background-color: #F1F4FF;
+    border: none;
+    border-radius: 10px;
+    height: 6vh;
+    width: 75vw;
+    text-indent: 20px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.email-input:hover{
+    border: solid blue 1px;
+}
+
+.password-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #F1F4FF;
+    border: none;
+    border-radius: 10px;
+    height: 6vh;
+    width: 75vw;
+    text-indent: 20px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.password-input:hover{
+    border: solid blue 1px;
+}
+
+.ConfirmPassword-input {
+    margin-top: 10px;;
+    background-color: #F1F4FF;
+    border: none;
+    border-radius: 10px;
+    height: 6vh;
+    width: 75vw;
+    text-indent: 20px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.containerButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 2/8;
+    grid-row: 6/7;
+    padding: 10px;
+}
+
+.CreateButton {
+    height: 6vh;
+    width: 74vw;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1F41BB;
+    color: white;
+    box-shadow: 0px 3px 14px #1f41bb99;
+}
+
+.SignInContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.Sign-in{
+    border: none;
+    background: none;
+    color: #494949;
+    font-weight: 600;
+}
+
+.background-forms-n3 {
+    display: flex;
+    grid-column: 1/5;
+    grid-row: 7/9;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.background-forms-n4 {
+    display: flex;
+    grid-column: 2/6;
+    grid-row: 7/9;
+}
